@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    document.body.addEventListener('mousedown', changeColor);
-    document.body.addEventListener('touchstart', changeColor);
+    var changeColorBtn = document.getElementById('changeColorBtn');
+    changeColorBtn.addEventListener('click', changeColor);
 });
 
 function changeColor() {
