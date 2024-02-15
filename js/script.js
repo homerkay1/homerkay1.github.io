@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    document.body.addEventListener('pointerdown', changeColor);
+    document.body.addEventListener('mousedown', changeColor);
+    document.body.addEventListener('touchstart', changeColor);
 });
 
 function changeColor() {
