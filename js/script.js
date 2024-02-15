@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    document.body.addEventListener('click', changeColor);
+    document.body.addEventListener('pointerdown', changeColor);
 });
 
 function changeColor() {
